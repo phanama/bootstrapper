@@ -101,9 +101,9 @@ bootstrap_tools_fedora() {
 }
 
 bootstrap() {
-    [[ "$BOOTSTRAP_OS" == "macos" ]] && boostrap_tools_macos
-    [[ "$BOOTSTRAP_OS" == "ubuntu" ]] && boostrap_tools_ubuntu
-    [[ "$BOOTSTRAP_OS" == "fedora" ]] && boostrap_tools_fedora
+    [[ "$BOOTSTRAP_OS" == "macos" ]] && bootstrap_tools_macos
+    [[ "$BOOTSTRAP_OS" == "ubuntu" ]] && bootstrap_tools_ubuntu
+    [[ "$BOOTSTRAP_OS" == "fedora" ]] && bootstrap_tools_fedora
 
     bootstrap_bashit
     bootstrap_vim_plugins
